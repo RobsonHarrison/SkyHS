@@ -1,6 +1,6 @@
 firstName = input("What is your first name?")
 #firstName = "Andy"
-surname = "Smith"
+surname = input ("What is your last name")
 print(firstName + surname)
 print(firstName, surname)
-print(f"My first name is {firstName}, my surname is {surname}") #Formatted
+print(f"Hello {firstName},{surname}") #Formatted
